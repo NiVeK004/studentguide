@@ -1,0 +1,242 @@
+{
+  "DATA110 v25 - Sant/Usant": [
+    {
+      "question": "'1'+'2' gir feilmelding [cite: 12]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    },
+    {
+      "question": "'1'*'2' gir feilmelding [cite: 15]",
+      "options": ["Sant", "Usant"],
+      "answer": "Sant"
+    },
+    {
+      "question": "Uttrykkene 1+2**3*4 og ((1+(2**3))*4) evalueres til samme verdi [cite: 16]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    },
+    {
+      "question": "I en if-setning på formen:\nif Betingelse1: Blokk1\nelif Betingelse2: Blokk2\n...må minst en av Betingelse1 og Betingelse2 evalueres til True [cite: 17, 18, 19, 20]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    },
+    {
+      "question": "Tupler er foranderlige [cite: 21]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    },
+    {
+      "question": "open('nyfil.txt', 'w') oppretter alltid en ny fil [cite: 22]",
+      "options": ["Sant", "Usant"],
+      "answer": "Sant"
+    },
+    {
+      "question": "Nøkkelordet global oppretter en global variabel i et lokalt skop [cite: 23]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    },
+    {
+      "question": "Alle klasser har klasse-attributter [cite: 24]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    },
+    {
+      "question": "def f(x): return lambda y: x*y er en høyere ordens funksjon [cite: 25]",
+      "options": ["Sant", "Usant"],
+      "answer": "Sant"
+    },
+    {
+      "question": "Alle høyere ordens funksjoner er resultat-funksjoner [cite: 26]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    }
+  ],
+  "DATA110 v25 - Hva skrives ut": [
+    {
+      "question": "print('Hei','på','deg', sep='+') [cite: 28]",
+      "options": ["Hei+på+deg", "Heipådeg", "Hei på deg", "Hei på deg+"],
+      "answer": "Hei+på+deg"
+    },
+    {
+      "question": "L=[1,2,3]\nL.append(sum(L))\nprint(L) [cite: 33, 34, 35]",
+      "options": ["[1, 2, 3, 6]", "[1, 2, 3, [1, 2, 3]]", "[6, 1, 2, 3]", "[[1, 2, 3], 1, 2, 3]"],
+      "answer": "[1, 2, 3, 6]"
+    },
+    {
+      "question": "L=['Hei','på','deg']\nI=''\nfor x in L:I=I+x\nprint(I) [cite: 41, 42, 43, 44]",
+      "options": ["Hei+på+deg", "Heipådeg", "Hei på deg", "['Hei på deg']"],
+      "answer": "Heipådeg"
+    },
+    {
+      "question": "temp={'man':9, 'tir':4, 'ons':5, 'tor':11, 'fre':10}\nfor x in temp.values(): print(x,end=' ') [cite: 50, 51]",
+      "options": ["('man', 9) ('tir', 4) ('ons', 5) ('tor', 11) ('fre', 10)", "man tir ons tor fre", "9 4 5 11 10", "man:9 tir:4 ons:5 tor:11 fre:10"],
+      "answer": "9 4 5 11 10"
+    },
+    {
+      "question": "def partall(n): return n%2 == 0\nx=4\ny=10\ni=x\nwhile i<y:\n  i=i+1\n  if partall(i):continue\n  print(i, end=' ') [cite: 56, 57, 58, 59, 60, 61, 62, 63]",
+      "options": ["5 7 9", "4 6 8", "4 6 8 10", "3 5 7 9"],
+      "answer": "5 7 9"
+    },
+    {
+      "question": "tall=['en', 'to', 'tre', 'fire', 'fem']\nresultat = []\nfor x in tall: resultat.append(x.find('re'))\nprint(resultat) [cite: 69, 70, 71]",
+      "options": ["[-1, -1, 1, 2, -1]", "[False, False, True, True, False]", "[True, False, True, True, True]", "[0, -1, 1, 2, 1]"],
+      "answer": "[-1, -1, 1, 2, -1]"
+    },
+    {
+      "question": "s='en to tre fire fem seks sju åtte ni ti'\nprint([x for x in s.split() if len(x)==3]) [cite: 77, 78]",
+      "options": ["['tre', 'fem', 'sju']", "tre\nfem\nsju", "['tre']\n['fem']\n['sju']", "['tre fem sju']"],
+      "answer": "['tre', 'fem', 'sju']"
+    },
+    {
+      "question": "def f(n):\n  nn=n+2\n  print(nn, end=' ')\n  return nn\nprint(f(f(2))) [cite: 88, 89, 90, 91, 92]",
+      "options": ["2 4 6", "4 6 6", "2 4 4", "4 6"],
+      "answer": "4 6 6"
+    },
+    {
+      "question": "d={1:{'a':1},2:'b',3:{'b':2,'a':1}}\nprint(d[d[3][d[2]]]) [cite: 98, 99]",
+      "options": ["1", "2", "a", "b"],
+      "answer": "b"
+    },
+    {
+      "question": "def f(x):\n  return lambda y: x*y\nprint(f('3')(3)) [cite: 106, 107, 108]",
+      "options": ["333", "33", "9", "feilmelding"],
+      "answer": "333"
+    }
+  ],
+  "INFO132 Kunnskapsspørsmål - Hva skrives ut": [
+    {
+      "question": "x=15\nif x>5: print('A')\nelif x>10: print('B')\nelif x>20:print('C') [cite: 343, 344, 345, 346]",
+      "options": ["A", "B", "A og B", "C"],
+      "answer": "A"
+    },
+    {
+      "question": "x=5\ny=20\nif x<y and y>10:\n  if y-x>x or y==55: print('A')\n  else: print('B')\nelif y<x and y>20:\n  if x<y:print('C')\n  else: print('D') [cite: 355, 356, 357, 358, 359, 360, 361, 362]",
+      "options": ["A", "B", "C", "D"],
+      "answer": "A"
+    },
+    {
+      "question": "for x in 'AB':\n  for y in ['C', 'D']:\n    print(x, y, end=' ') [cite: 372, 374, 375, 376]",
+      "options": ["AB CD", "A C A D B C B D", "AB AB CD CD", "ABCDABCD"],
+      "answer": "A C A D B C B D"
+    },
+    {
+      "question": "tolv='12'\ntrettifire='34'\nfor x in tolv:\n  for y in trettifire:\n    print(x+y, end='+')\nprint(tolv+trettifire) [cite: 385, 386, 387, 388, 389, 390]",
+      "options": ["66", "1308", "4+5+5+6+46", "13+14+23+24+1234"],
+      "answer": "13+14+23+24+1234"
+    },
+    {
+      "question": "x=2\ndef f(x):\n  def g(x):\n    return x*x\n  return g(x)+g(x)\nprint(f(x)) [cite: 454, 455, 456, 457, 458, 459]",
+      "options": ["2", "4", "8", "12"],
+      "answer": "8"
+    },
+    {
+      "question": "x=2\ndef f(x):\n  x=2*x\n  def g():\n    nonlocal x\n    return x*x\n  return g()+g()\nprint(f(x)) [cite: 469, 470, 471, 472, 473, 474, 475, 476]",
+      "options": ["8", "16", "24", "32"],
+      "answer": "32"
+    }
+  ],
+  "INFO132 h24 - Sant/Usant": [
+    {
+      "question": "Tekststrenger er foranderlige [cite: 1493]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    },
+    {
+      "question": "[0][0] == 0 [cite: 1494]",
+      "options": ["Sant", "Usant"],
+      "answer": "Sant"
+    },
+    {
+      "question": "[2,3,4] in [1,2,3,4,5] [cite: 1495]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    },
+    {
+      "question": "json-filer er tekst-filer [cite: 1496]",
+      "options": ["Sant", "Usant"],
+      "answer": "Sant"
+    },
+    {
+      "question": "len(range(1,10)) == 10 [cite: 1497]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    },
+    {
+      "question": "[1,2,3]*2 == [2,4,6] [cite: 1498]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    },
+    {
+      "question": "requests er en modul for serialisering av objekter [cite: 1499]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    },
+    {
+      "question": "En rekursiv funksjon kaller på seg selv [cite: 1500]",
+      "options": ["Sant", "Usant"],
+      "answer": "Sant"
+    },
+    {
+      "question": "Globale variable tar presedens over lokale variable med samme variabelnavn [cite: 1501]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    },
+    {
+      "question": "tkinter er en modul for kommunikasjon over nett [cite: 1502]",
+      "options": ["Sant", "Usant"],
+      "answer": "Usant"
+    }
+  ],
+  "INFO132 h24 - Hva skrives ut": [
+    {
+      "question": "juba='juba'*2\nprint(juba+juba) [cite: 1505, 1506]",
+      "options": ["jubajubajubajuba", "juba juba", "jubajuba", "jubajuba+jubajuba"],
+      "answer": "jubajubajubajuba"
+    },
+    {
+      "question": "juba='juba juba'.split()\nprint('juba'.join(juba)) [cite: 1512, 1513]",
+      "options": ["jubajubajuba", "jubajuba", "juba juba", "juba join juba"],
+      "answer": "jubajubajuba"
+    },
+    {
+      "question": "juba={'juba':'jubajuba', 'jubajuba': 'breiflabb', 'breiflabb':'overalt'}\nprint(juba['jubajuba']) [cite: 1519, 1520]",
+      "options": ["breiflabb", "overalt", "juba", "jubajuba"],
+      "answer": "breiflabb"
+    },
+    {
+      "question": "karakterer={'Anne':'B', 'Erik':'C', 'Ida': 'B', 'Ola':'A'}\nfor (x,y) in sorted (karakterer.items()): print(y, end=' ') [cite: 1526]",
+      "options": ["B C B A", "Anne Erik Ida Ola", "A B B C", "A B C"],
+      "answer": "B C B A"
+    },
+    {
+      "question": "slår={'stein':'saks', 'saks':'papir', 'papir':'stein'}\nOla=['saks', 'stein','saks', 'papir', 'stein', 'stein']\nLiv=['stein','saks', 'papir', 'papir','stein', 'saks']\nprint(slår[Ola[3]]==Liv[3]) [cite: 1532]",
+      "options": ["False", "True", "papir", "stein"],
+      "answer": "False"
+    },
+    {
+      "question": "slår={'stein':'saks', 'saks':'papir', 'papir':'stein'}\nOla=['saks', 'stein','saks', 'papir', 'stein', 'papir']\nLiv=['stein','saks', 'papir', 'papir','stein', 'stein']\ni=0\nresultat = []\nfor o in Ola:\n  if slår[o]== Liv[i]: print(i, end=' ')\n  i=i+1 [cite: 1537, 1538, 1539, 1540, 1541]",
+      "options": ["1 2 5", "0 3 4", "papirstein", "steinstein"],
+      "answer": "1 2 5"
+    },
+    {
+      "question": "def f(x):\n  y=x+x\n  return y\nx=[1,'1',11,'11']\nfor y in x: print(f(y), end='+') [cite: 1547, 1548, 1549, 1550, 1551]",
+      "options": ["2+11+22+1111+", "1146", "Feilmelding TypeError: can only concatenate str (not \"int\") to str", "Feilmelding ScopeError: Global name 'x' used as local parameter"],
+      "answer": "2+11+22+1111+"
+    },
+    {
+      "question": "for x in 'abc':\n  for y in 'dcb':\n    if x>y:print(x+y,end='+') [cite: 1557, 1558, 1560]",
+      "options": ["cb+", "ad+ac+ab+bd+bc+cd+", "ad+bc+cb+", "+ (tom streng etterfulgt av +)"],
+      "answer": "cb+"
+    },
+    {
+      "question": "A={1,2,3,4,5}\nB={4,5,6,7}\nprint(A|B, A&B, A-B) [cite: 1565, 1566]",
+      "options": ["{1, 2, 3, 4, 5, 6, 7} {4, 5} {1, 2, 3}", "{1, 2, 3, 6, 7} {4, 5} {1, 2, 3}", "{1, 2, 3, 6, 7} {4, 5, 6, 67} {1, 2, 3}", "{1, 2, 3, 4, 5, 6, 7} set() {6,7}"],
+      "answer": "{1, 2, 3, 4, 5, 6, 7} {4, 5} {1, 2, 3}"
+    },
+    {
+      "question": "A={1,2,3,4,5}\nB={4,5,6,7}\nprint((B&(A-B)) | (B-(A&B))) [cite: 1572, 1573, 1574]",
+      "options": ["{6, 7}", "set()", "{1, 2, 6, 7}", "{}"],
+      "answer": "{6, 7}"
+    }
+  ]
+}
