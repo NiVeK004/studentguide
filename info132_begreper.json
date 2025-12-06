@@ -1,0 +1,344 @@
+{
+  "INFO132 Begreper": [
+    {
+      "question": "Konkatenering",
+      "options": [
+        "Å slå sammen to eller flere sekvenser til én",
+        "Å sammenligne to tall",
+        "Å konvertere en streng til tall",
+        "Å fjerne duplikater fra en liste"
+      ],
+      "answer": "Å slå sammen to eller flere sekvenser til én"
+    },
+    {
+      "question": "float",
+      "options": [
+        "Datatypen for heltall",
+        "Datatypen for tekststrenger",
+        "Datatypen for desimaltall",
+        "En funksjon som returnerer lengden på en liste"
+      ],
+      "answer": "Datatypen for desimaltall"
+    },
+    {
+      "question": "break",
+      "options": [
+        "Avslutter en funksjon",
+        "Avbryter en løkke umiddelbart",
+        "Starter en ny løkke",
+        "Ignorerer en feil"
+      ],
+      "answer": "Avbryter en løkke umiddelbart"
+    },
+    {
+      "question": "aliaser",
+      "options": [
+        "To variabler som peker til samme objekt i minnet",
+        "To funksjoner med samme navn",
+        "En metode som kalles automatisk",
+        "En type løkke"
+      ],
+      "answer": "To variabler som peker til samme objekt i minnet"
+    },
+    {
+      "question": "tupler",
+      "options": [
+        "Mutable sekvenser med nøkkel-verdi-par",
+        "Immutable sekvenser av elementer",
+        "Lister med duplikater",
+        "En type løkke"
+      ],
+      "answer": "Immutable sekvenser av elementer"
+    },
+    {
+      "question": "mengder",
+      "options": [
+        "Sekvenser som tillater duplikater",
+        "Ordnet samling av elementer",
+        "Uordnet samling uten duplikater",
+        "Liste med faste verdier"
+      ],
+      "answer": "Uordnet samling uten duplikater"
+    },
+    {
+      "question": "fortegnelse (dictionary)",
+      "options": [
+        "Liste med tall",
+        "Samling av nøkkel-verdi-par",
+        "Uordnet liste med duplikater",
+        "En type løkke"
+      ],
+      "answer": "Samling av nøkkel-verdi-par"
+    },
+    {
+      "question": "liste",
+      "options": [
+        "Immutable sekvens",
+        "Mutable sekvens av elementer",
+        "En type løkke",
+        "En funksjon"
+      ],
+      "answer": "Mutable sekvens av elementer"
+    },
+    {
+      "question": "skop",
+      "options": [
+        "Område i koden hvor en variabel er tilgjengelig",
+        "En metode i en klasse",
+        "En type løkke",
+        "En operator"
+      ],
+      "answer": "Område i koden hvor en variabel er tilgjengelig"
+    },
+    {
+      "question": "global",
+      "options": [
+        "Deklarerer at en variabel er global i en funksjon",
+        "Oppretter en ny lokal variabel",
+        "Sletter en variabel",
+        "Returnerer en verdi"
+      ],
+      "answer": "Deklarerer at en variabel er global i en funksjon"
+    },
+    {
+      "question": "rekursjon",
+      "options": [
+        "En funksjon som kaller seg selv",
+        "En løkke som kjører evig",
+        "En metode som returnerer en verdi",
+        "En operator"
+      ],
+      "answer": "En funksjon som kaller seg selv"
+    },
+    {
+      "question": "klasseattributt",
+      "options": [
+        "Attributt delt av alle instanser av en klasse",
+        "Variabel som bare finnes i én metode",
+        "En funksjon i en klasse",
+        "En metode som kalles automatisk"
+      ],
+      "answer": "Attributt delt av alle instanser av en klasse"
+    },
+    {
+      "question": "__init__",
+      "options": [
+        "Metode som kalles når en instans opprettes",
+        "Metode som avslutter en klasse",
+        "En operator",
+        "En løkke"
+      ],
+      "answer": "Metode som kalles når en instans opprettes"
+    },
+    {
+      "question": "arv",
+      "options": [
+        "En klasse som arver attributter og metoder fra en annen klasse",
+        "En metode som returnerer en verdi",
+        "En funksjon som kaller seg selv",
+        "En type løkke"
+      ],
+      "answer": "En klasse som arver attributter og metoder fra en annen klasse"
+    },
+    {
+      "question": "short-circuit evaluation",
+      "options": [
+        "Python evaluerer bare så langt det er nødvendig i boolske uttrykk",
+        "Python evaluerer alle uttrykk uansett",
+        "Python hopper over løkker",
+        "Python avslutter programmet"
+      ],
+      "answer": "Python evaluerer bare så langt det er nødvendig i boolske uttrykk"
+    },
+    {
+      "question": "operatorpresedens (PEMDAS)",
+      "options": [
+        "Regler for rekkefølge av operatorer i uttrykk",
+        "Rekkefølge av funksjonskall",
+        "Rekkefølge av løkker",
+        "Rekkefølge av klasser"
+      ],
+      "answer": "Regler for rekkefølge av operatorer i uttrykk"
+    },
+    {
+      "question": "JSON",
+      "options": [
+        "Format for å lagre og utveksle data som tekst",
+        "En Python-modul for bilder",
+        "En løkke",
+        "En operator"
+      ],
+      "answer": "Format for å lagre og utveksle data som tekst"
+    },
+    {
+      "question": "API",
+      "options": [
+        "Grensesnitt for å kommunisere med programvare",
+        "En type løkke",
+        "En metode i en klasse",
+        "En operator"
+      ],
+      "answer": "Grensesnitt for å kommunisere med programvare"
+    },
+    {
+      "question": "GUI",
+      "options": [
+        "Grafisk brukergrensesnitt",
+        "En type løkke",
+        "En metode",
+        "En operator"
+      ],
+      "answer": "Grafisk brukergrensesnitt"
+    },
+    {
+      "question": "continue",
+      "options": [
+        "Hopper til neste iterasjon i en løkke",
+        "Avslutter en løkke",
+        "Starter en ny funksjon",
+        "Ignorerer en feil"
+      ],
+      "answer": "Hopper til neste iterasjon i en løkke"
+    },
+    {
+      "question": "lambda",
+      "options": [
+        "Anonym funksjon",
+        "En løkke",
+        "En operator",
+        "En metode"
+      ],
+      "answer": "Anonym funksjon"
+    },
+    {
+      "question": "None",
+      "options": [
+        "Spesiell verdi som betyr 'ingen verdi'",
+        "En løkke",
+        "En operator",
+        "En metode"
+      ],
+      "answer": "Spesiell verdi som betyr 'ingen verdi'"
+    },
+    {
+      "question": "instans",
+      "options": [
+        "Et objekt laget fra en klasse",
+        "En metode",
+        "En løkke",
+        "En operator"
+      ],
+      "answer": "Et objekt laget fra en klasse"
+    },
+    {
+      "question": "metode",
+      "options": [
+        "Funksjon definert i en klasse",
+        "En løkke",
+        "En operator",
+        "En modul"
+      ],
+      "answer": "Funksjon definert i en klasse"
+    },
+    {
+      "question": "subklasse",
+      "options": [
+        "Klasse som arver fra en annen klasse",
+        "En metode",
+        "En operator",
+        "En løkke"
+      ],
+      "answer": "Klasse som arver fra en annen klasse"
+    },
+    {
+      "question": "slicing",
+      "options": [
+        "Hente ut deler av en sekvens",
+        "Fjerne elementer fra en liste",
+        "Sortere en liste",
+        "Kopiere en dictionary"
+      ],
+      "answer": "Hente ut deler av en sekvens"
+    },
+    {
+      "question": "keys/values/items",
+      "options": [
+        "Metoder for å hente nøkler, verdier og par fra en dictionary",
+        "Metoder for å sortere lister",
+        "Metoder for å hente elementer fra en mengde",
+        "Metoder for å hente elementer fra en tuple"
+      ],
+      "answer": "Metoder for å hente nøkler, verdier og par fra en dictionary"
+    },
+    {
+      "question": "get",
+      "options": [
+        "Metode for å hente verdi fra dictionary med standardverdi",
+        "Metode for å hente element fra liste",
+        "Metode for å hente element fra mengde",
+        "Metode for å hente element fra tuple"
+      ],
+      "answer": "Metode for å hente verdi fra dictionary med standardverdi"
+    },
+    {
+      "question": "open",
+      "options": [
+        "Funksjon for å åpne en fil",
+        "Funksjon for å hente element fra liste",
+        "Funksjon for å hente verdi fra dictionary",
+        "Funksjon for å sortere en liste"
+      ],
+      "answer": "Funksjon for å åpne en fil"
+    },
+    {
+      "question": "filoperasjoner",
+      "options": [
+        "Lesing og skriving til filer med open, read, write, close",
+        "Sortering av lister",
+        "Opprettelse av klasser",
+        "Bruk av løkker"
+      ],
+      "answer": "Lesing og skriving til filer med open, read, write, close"
+    },
+    {
+      "question": "try-except",
+      "options": [
+        "Håndtering av feil i programmet",
+        "Opprettelse av klasser",
+        "Opprettelse av løkker",
+        "Opprettelse av funksjoner"
+      ],
+      "answer": "Håndtering av feil i programmet"
+    },
+    {
+      "question": "boolske operatorer",
+      "options": [
+        "Operatorer som and, or, not",
+        "Operatorer som +, -, *",
+        "Operatorer som +=, -=",
+        "Operatorer som ==, !="
+      ],
+      "answer": "Operatorer som and, or, not"
+    },
+    {
+      "question": "sekvenstyper",
+      "options": [
+        "Datatyper som str, list, tuple, range",
+        "Datatyper som int, float",
+        "Datatyper som dict, set",
+        "Datatyper som bool, None"
+      ],
+      "answer": "Datatyper som str, list, tuple, range"
+    },
+    {
+      "question": "iterasjon",
+      "options": [
+        "Gjentakelse av kode med løkker",
+        "Opprettelse av funksjoner",
+        "Opprettelse av klasser",
+        "Sortering av lister"
+      ],
+      "answer": "Gjentakelse av kode med løkker"
+    }
+  ]
+}
