@@ -5,6 +5,7 @@ import random
 SUBJECT_FILES = {
     "INFO100": "info100.json",
     "INFO132 / DATA110": "info132_data110.json"
+    "INFO132 Begrepsbank": "info132_begreper.json"
 }
 
 def load_notes(filename):
