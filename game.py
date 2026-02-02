@@ -9,7 +9,7 @@ SUBJECT_FILES = {
 }
 
 def load_notes(filename):
-    """Prøver å laste en JSON-fil og returnerer dataen."""
+    
     try:
         with open(filename, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -26,7 +26,7 @@ def load_notes(filename):
         return None
 
 def ask_question(q):
-    """Stiller ett enkelt spørsmål og returnerer 1 ved riktig, 0 ved feil."""
+
     
     print("\nSpørsmål:", q["question"])
 
@@ -92,8 +92,6 @@ def run_exam(notes, category, num_questions=10):
     print("="*20 + "\n")
 
 def run_category_menu(subject_name, notes):
-    """Viser kategorimenyen for et gitt fag og lar brukeren velge quiz."""
-    
     categories = list(notes.keys())
     
     while True:
@@ -124,7 +122,6 @@ def run_category_menu(subject_name, notes):
             exit() # Avslutter hele programmet
 
 def main():
-    """Hovedmeny for å velge FAG og laste inn riktig JSON-fil."""
     
     print("Velkommen til Eksamens-Quizen!")
     
