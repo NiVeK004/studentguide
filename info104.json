@@ -1,0 +1,361 @@
+{
+  "01 - Grunnleggende Mengdelære": [
+    {
+      "question": "Hva er forskjellen på en mengde (set) og en multimengde (multiset)?",
+      "options": [
+        "I en mengde ignoreres antall forekomster, mens i en multimengde teller de.",
+        "I en mengde er rekkefølgen viktig, det er den ikke i en multimengde.",
+        "En mengde kan være uendelig, en multimengde må være endelig.",
+        "Det er ingen forskjell, det er synonymer."
+      ],
+      "answer": "I en mengde ignoreres antall forekomster, mens i en multimengde teller de."
+    },
+    {
+      "question": "Hva blir snittet mellom mengdene A = {1, 2, 3} og B = {2, 3, 4}?",
+      "options": [
+        "{2, 3}",
+        "{1, 2, 3, 4}",
+        "{1, 4}",
+        "∅"
+      ],
+      "answer": "{2, 3}"
+    },
+    {
+      "question": "Hva betyr uttrykket A ⊆ B?",
+      "options": [
+        "A er en delmengde av B (alle elementer i A finnes også i B)",
+        "A er et element i B",
+        "A er en ekte delmengde av B (A er mindre enn B)",
+        "B er en delmengde av A"
+      ],
+      "answer": "A er en delmengde av B (alle elementer i A finnes også i B)"
+    },
+    {
+      "question": "Gitt A = {a, b} og B = {1, 2}. Hvor mange elementer er det i det kartesiske produktet A × B?",
+      "options": [
+        "4 elementer",
+        "2 elementer",
+        "8 elementer",
+        "Uendelig mange"
+      ],
+      "answer": "4 elementer"
+    },
+    {
+      "question": "Hva er mengdedifferansen A \\ B?",
+      "options": [
+        "Mengden av elementer som er i A men IKKE i B",
+        "Mengden av elementer som er i både A og B",
+        "Mengden av elementer som er i B men ikke i A",
+        "Det samme som den tomme mengden"
+      ],
+      "answer": "Mengden av elementer som er i A men IKKE i B"
+    }
+  ],
+  "02 - Utsagnslogikk: Syntaks": [
+    {
+      "question": "Hvilket logisk konnektiv har høyest presedens (binder sterkest)?",
+      "options": [
+        "¬ (Negasjon)",
+        "∧ (Konjunksjon)",
+        "∨ (Disjunksjon)",
+        "→ (Implikasjon)"
+      ],
+      "answer": "¬ (Negasjon)"
+    },
+    {
+      "question": "Hva kalles et utsagn som ikke kan deles opp i mindre utsagn?",
+      "options": [
+        "Atomært utsagn",
+        "Sammensatt utsagn",
+        "Gyldig utsagn",
+        "Binært utsagn"
+      ],
+      "answer": "Atomært utsagn"
+    },
+    {
+      "question": "Hvordan tolkes formelen P ∧ Q → R med standard presedensregler?",
+      "options": [
+        "(P ∧ Q) → R",
+        "P ∧ (Q → R)",
+        "(P ∧ Q) ∧ R",
+        "P → (Q ∧ R)"
+      ],
+      "answer": "(P ∧ Q) → R"
+    },
+    {
+      "question": "Hva betyr forkortelsen 'hviss' (iff)?",
+      "options": [
+        "Hvis og bare hvis (↔)",
+        "Hvis (→)",
+        "Hvilket som helst",
+        "Hvis ikke så sant"
+      ],
+      "answer": "Hvis og bare hvis (↔)"
+    }
+  ],
+  "03 - Utsagnslogikk: Semantikk": [
+    {
+      "question": "Hva er sannhetsverdien til P → Q dersom P er Usann (0)?",
+      "options": [
+        "Alltid Sann (1)",
+        "Alltid Usann (0)",
+        "Det avhenger av Q",
+        "Udefinert"
+      ],
+      "answer": "Alltid Sann (1)"
+    },
+    {
+      "question": "Hva sier De Morgans lov om ¬(P ∨ Q)?",
+      "options": [
+        "¬P ∧ ¬Q",
+        "¬P ∨ ¬Q",
+        "P ∧ Q",
+        "¬(P ∧ Q)"
+      ],
+      "answer": "¬P ∧ ¬Q"
+    },
+    {
+      "question": "Hvor mange rader har en sannhetsverditabell med 3 utsagnsvariabler (P, Q, R)?",
+      "options": [
+        "8 rader (2^3)",
+        "6 rader (2*3)",
+        "9 rader (3^2)",
+        "4 rader"
+      ],
+      "answer": "8 rader (2^3)"
+    },
+    {
+      "question": "Når er formelen (P ∧ Q) sann?",
+      "options": [
+        "Kun når både P og Q er sanne",
+        "Når minst én av dem er sann",
+        "Når begge er usanne",
+        "Når P er sann og Q er usann"
+      ],
+      "answer": "Kun når både P og Q er sanne"
+    }
+  ],
+  "04 - Logiske Begreper": [
+    {
+      "question": "Hva kaller vi en formel som er SANN i alle mulige tolkninger (alle rader i tabellen)?",
+      "options": [
+        "Gyldig (Tautologi)",
+        "Oppfyllbar",
+        "Falsifiserbar",
+        "Kontradiktorisk"
+      ],
+      "answer": "Gyldig (Tautologi)"
+    },
+    {
+      "question": "Hva betyr det at en formel er oppfyllbar (satisfiable)?",
+      "options": [
+        "Det finnes minst én tolkning som gjør den sann",
+        "Den er sann i alle tolkninger",
+        "Den er usann i alle tolkninger",
+        "Den inneholder ingen negasjoner"
+      ],
+      "answer": "Det finnes minst én tolkning som gjør den sann"
+    },
+    {
+      "question": "Hva betyr logisk konsekvens M ⊨ F?",
+      "options": [
+        "I alle tilfeller der alle formlene i M er sanne, er også F sann",
+        "F er logisk ekvivalent med M",
+        "Hvis F er sann, så er M sann",
+        "Det finnes et tilfelle der M er sann og F er sann"
+      ],
+      "answer": "I alle tilfeller der alle formlene i M er sanne, er også F sann"
+    },
+    {
+      "question": "Hva er en kontradiksjon (selvmotsigelse)?",
+      "options": [
+        "En formel som er USANN i alle tolkninger",
+        "En formel som er SANN i alle tolkninger",
+        "En formel som inneholder en logisk feil",
+        "En formel som er vanskelig å bevise"
+      ],
+      "answer": "En formel som er USANN i alle tolkninger"
+    }
+  ],
+  "05 - Bevismetoder": [
+    {
+      "question": "Hva er fremgangsmåten i et motsigelsesbevis (Reductio ad absurdum)?",
+      "options": [
+        "Anta det motsatte av det du vil bevise, og vis at det leder til en umulighet",
+        "Anta at premissene er sanne og vis direkte at konklusjonen følger",
+        "Test påstanden med et stort antall tilfeldige eksempler",
+        "Bryt problemet ned i mindre deler (bevis ved tilfeller)"
+      ],
+      "answer": "Anta det motsatte av det du vil bevise, og vis at det leder til en umulighet"
+    },
+    {
+      "question": "Hva brukes et moteksempel til?",
+      "options": [
+        "For å motbevise en generell påstand ('For alle x...')",
+        "For å bevise at en påstand alltid er sann",
+        "For å bekrefte en hypotese",
+        "For å finne unntaket som bekrefter regelen"
+      ],
+      "answer": "For å motbevise en generell påstand ('For alle x...')"
+    },
+    {
+      "question": "Hva kjennetegner et direkte bevis for P → Q?",
+      "options": [
+        "Vi antar P er sann, og resonnerer oss frem til at Q må være sann",
+        "Vi antar Q er sann, og viser at P følger av det",
+        "Vi antar at P er usann, og ser hva som skjer",
+        "Vi viser at P og Q er logisk ekvivalente"
+      ],
+      "answer": "Vi antar P er sann, og resonnerer oss frem til at Q må være sann"
+    }
+  ],
+  "06 - Relasjoner": [
+    {
+      "question": "Hva betyr det at en relasjon R er refleksiv?",
+      "options": [
+        "At xRx for alle elementer x (alle har relasjon til seg selv)",
+        "At hvis xRy så er yRx",
+        "At ingen elementer har relasjon til seg selv",
+        "At xRy og yRz medfører xRz"
+      ],
+      "answer": "At xRx for alle elementer x (alle har relasjon til seg selv)"
+    },
+    {
+      "question": "Hvilke tre egenskaper MÅ en ekvivalensrelasjon ha?",
+      "options": [
+        "Refleksiv, Symmetrisk, Transitiv",
+        "Refleksiv, Anti-symmetrisk, Transitiv",
+        "Irrefleksiv, Symmetrisk, Transitiv",
+        "Symmetrisk, Transitiv, Total"
+      ],
+      "answer": "Refleksiv, Symmetrisk, Transitiv"
+    },
+    {
+      "question": "Hva skiller en partiell ordning (f.eks. ≤) fra en ekvivalensrelasjon?",
+      "options": [
+        "Den er Anti-symmetrisk i stedet for Symmetrisk",
+        "Den er Irrefleksiv i stedet for Refleksiv",
+        "Den er ikke Transitiv",
+        "Den gjelder kun for tall"
+      ],
+      "answer": "Den er Anti-symmetrisk i stedet for Symmetrisk"
+    },
+    {
+      "question": "Hva betyr det at en relasjon er transitiv?",
+      "options": [
+        "Hvis xRy og yRz, så er xRz",
+        "Hvis xRy, så er yRx",
+        "xRx gjelder alltid",
+        "Hvis xRy og yRx, så er x = y"
+      ],
+      "answer": "Hvis xRy og yRz, så er xRz"
+    }
+  ],
+  "07 - Funksjoner": [
+    {
+      "question": "Hva betyr det at en funksjon er injektiv (en-til-en)?",
+      "options": [
+        "Ulike input gir alltid ulike output (ingen kollisjoner)",
+        "Funksjonen treffer alle mulige verdier i verdimengden",
+        "Funksjonen er definert for alle tall",
+        "Funksjonen kan reverseres"
+      ],
+      "answer": "Ulike input gir alltid ulike output (ingen kollisjoner)"
+    },
+    {
+      "question": "Hva betyr det at en funksjon er surjektiv (på)?",
+      "options": [
+        "Verdimengden og bildemengden er like (alle mulige ut-verdier blir truffet)",
+        "Hver ut-verdi kommer fra nøyaktig én inn-verdi",
+        "Funksjonen er en-til-en",
+        "Funksjonen er konstant"
+      ],
+      "answer": "Verdimengden og bildemengden er like (alle mulige ut-verdier blir truffet)"
+    },
+    {
+      "question": "Hva kalles en funksjon som er BÅDE injektiv og surjektiv?",
+      "options": [
+        "Bijektiv (en-til-en korrespondanse)",
+        "Partiell funksjon",
+        "Identitetsfunksjon",
+        "Invers funksjon"
+      ],
+      "answer": "Bijektiv (en-til-en korrespondanse)"
+    },
+    {
+      "question": "Hva er domenet (definisjonsmengden) til en funksjon f: A → B?",
+      "options": [
+        "Mengden A (inn-verdiene)",
+        "Mengden B (ut-verdiene)",
+        "Mengden av par (x, f(x))",
+        "Det største tallet i funksjonen"
+      ],
+      "answer": "Mengden A (inn-verdiene)"
+    }
+  ],
+  "08 - Mengdelære: Videregående": [
+    {
+      "question": "Hva er potensmengden P(A)?",
+      "options": [
+        "Mengden av alle delmengder av A",
+        "Mengden av alle elementer i A",
+        "Antall elementer i A",
+        "En mengde som inneholder A"
+      ],
+      "answer": "Mengden av alle delmengder av A"
+    },
+    {
+      "question": "Hvis en mengde A har n elementer, hvor mange elementer har potensmengden P(A)?",
+      "options": [
+        "2 opphøyd i n (2^n)",
+        "n opphøyd i 2 (n^2)",
+        "n fakultet (n!)",
+        "2 ganger n (2*n)"
+      ],
+      "answer": "2 opphøyd i n (2^n)"
+    },
+    {
+      "question": "Er mengden av reelle tall (R) tellbar?",
+      "options": [
+        "Nei, den er overtellbar (uncountable)",
+        "Ja, den kan telles på samme måte som heltall",
+        "Ja, fordi den er uendelig",
+        "Ja, men bare de positive tallene"
+      ],
+      "answer": "Nei, den er overtellbar (uncountable)"
+    },
+    {
+      "question": "Hva sier Cantors teorem?",
+      "options": [
+        "Potensmengden P(A) er alltid 'større' (har høyere kardinalitet) enn A",
+        "Alle uendelige mengder er like store",
+        "Det finnes ingen største mengde",
+        "Mengden av alle mengder eksisterer ikke"
+      ],
+      "answer": "Potensmengden P(A) er alltid 'større' (har høyere kardinalitet) enn A"
+    }
+  ],
+  "17 - Partisjoner": [
+    {
+      "question": "Hva er definisjonen på en partisjon av en mengde S?",
+      "options": [
+        "En samling ikke-tomme, disjunkte delmengder som til sammen dekker hele S",
+        "En tilfeldig oppdeling av S",
+        "Det samme som potensmengden til S",
+        "En måte å sortere elementene i S på"
+      ],
+      "answer": "En samling ikke-tomme, disjunkte delmengder som til sammen dekker hele S"
+    },
+    {
+      "question": "Hva er sammenhengen mellom ekvivalensrelasjoner og partisjoner?",
+      "options": [
+        "Ekvivalensklassene danner en partisjon av mengden",
+        "De har ingenting med hverandre å gjøre",
+        "En partisjon definerer en partiell ordning, ikke en ekvivalensrelasjon",
+        "Ekvivalensrelasjoner deler mengden i overlappende deler"
+      ],
+      "answer": "Ekvivalensklassene danner en partisjon av mengden"
+    }
+  ]
+}
+
