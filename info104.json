@@ -356,6 +356,474 @@
       ],
       "answer": "Ekvivalensklassene danner en partisjon av mengden"
     }
+  ],
+
+"13 - Kombinatorikk: Raske poeng": [
+    {
+      "question": "Hvor mange strenger med tre tegn der ingen tegn er like over mengden {a, b, c, 1, 2, 3} finnes? [cite: 185]",
+      "options": [
+        "120",
+        "216",
+        "18",
+        "720"
+      ],
+      "answer": "120"
+    },
+    {
+      "question": "Hvor mange undermengder som inneholder tallet 7 har mengden {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}? [cite: 190]",
+      "options": [
+        "1024",
+        "512",
+        "256",
+        "10"
+      ],
+      "answer": "512"
+    },
+    {
+      "question": "Hvor mange relasjoner på en mengde med fire elementer finnes? [cite: 206]",
+      "options": [
+        "16",
+        "256",
+        "65536",
+        "4096"
+      ],
+      "answer": "65536"
+    },
+    {
+      "question": "Når A er en mengde med 5 elementer, hvor mange funksjoner f: A -> A finnes? [cite: 213]",
+      "options": [
+        "120",
+        "25",
+        "3125",
+        "10"
+      ],
+      "answer": "3125"
+    },
+    {
+      "question": "Når A er en mengde med 5 elementer, hvor mange BIJEKTIVE funksjoner f: A -> A finnes? [cite: 220]",
+      "options": [
+        "3125",
+        "120",
+        "25",
+        "5"
+      ],
+      "answer": "120"
+    },
+    {
+      "question": "En meny har 3 forretter, 5 hovedretter og 4 desserter. Hvor mange ulike kombinasjoner bestående av en forrett, en hovedrett og en dessert finnes? [cite: 553, 554]",
+      "options": [
+        "12",
+        "60",
+        "120",
+        "15"
+      ],
+      "answer": "60"
+    },
+    {
+      "question": "En meny har 10 småretter. Hvor mange ulike topp-tre lister finnes? (Ingen rangeres like høyt). [cite: 561]",
+      "options": [
+        "1000",
+        "30",
+        "720",
+        "120"
+      ],
+      "answer": "720"
+    },
+    {
+      "question": "Hvor mange palindromer av lengde 6 er det over et alfabet med 3 tegn? [cite: 901, 902]",
+      "options": [
+        "729",
+        "27",
+        "9",
+        "18"
+      ],
+      "answer": "27"
+    },
+    {
+      "question": "Eliteserien i sykkelball består av 5 lag. Det finnes totalt 14 lag. Hvor mange mulige ulike kombinasjoner av lag finnes? [cite: 1624, 1625]",
+      "options": [
+        "2002",
+        "240240",
+        "70",
+        "120"
+      ],
+      "answer": "2002"
+    },
+    {
+      "question": "Du skal lage et passord bestående av tre tegn fra et alfabet på seks tegn. Alle tegnene må være ulike. Hvor mange mulige passord finnes? [cite: 914, 915]",
+      "options": [
+        "216",
+        "18",
+        "120",
+        "720"
+      ],
+      "answer": "120"
+    }
+  ],
+  "14 - Sannsynlighet: Gjentagende mønstre": [
+    {
+      "question": "Sannsynligheten for at en student står er 80%. Hva er sannsynligheten for at ALLE i en gruppe på 4 studenter står? (I prosent, avrundet). [cite: 228, 229, 230]",
+      "options": [
+        "32",
+        "41",
+        "80",
+        "20"
+      ],
+      "answer": "41"
+    },
+    {
+      "question": "Brann vinner serien: 10%. Vinner NM: 5%. Vinner begge: 2%. Hva er sannsynligheten for at de vinner MINST én av delene? [cite: 575, 576]",
+      "options": [
+        "13",
+        "15",
+        "17",
+        "7"
+      ],
+      "answer": "13"
+    },
+    {
+      "question": "Brann vinner serien: 10%. Vinner NM: 5%. Vinner begge: 2%. Hva er sannsynligheten for at Brann vinner NM GITT AT de vinner serien? [cite: 575, 595]",
+      "options": [
+        "2",
+        "20",
+        "5",
+        "50"
+      ],
+      "answer": "20"
+    },
+    {
+      "question": "Står eksamen og får jobb: 60%. Får jobb GITT at du står: 80%. Hva er sannsynligheten for at du står? [cite: 247, 248]",
+      "options": [
+        "75",
+        "48",
+        "20",
+        "140"
+      ],
+      "answer": "75"
+    },
+    {
+      "question": "Sannsynligheten for at det regner er 90%. Bussen forsinket er 20%. Forsinket GITT regn er 10%. Hva er sannsynligheten for regn GITT forsinket? [cite: 937, 938, 939]",
+      "options": [
+        "45",
+        "10",
+        "18",
+        "90"
+      ],
+      "answer": "45"
+    },
+    {
+      "question": "Vi velger tilfeldig gruppe på tre studenter fra {Per, Kari, Anne, Ola, Petter, Nils, Lise, Eva} (8 stk). Sannsynligheten for at Kari er med? [cite: 239, 240]",
+      "options": [
+        "38",
+        "13",
+        "25",
+        "50"
+      ],
+      "answer": "38"
+    }
+  ],
+  "15 - Informasjonsteori: Eksakt fra fasit": [
+    {
+      "question": "Du skal bestille to ulike retter fra en meny på 8 retter. Hva er informasjonsinnholdet i antall hele bits? [cite: 266, 267]",
+      "options": [
+        "6",
+        "16",
+        "4",
+        "8"
+      ],
+      "answer": "6"
+    },
+    {
+      "question": "Hva er det maksimale antall meldinger man kan skille mellom med 6 bits? [cite: 613]",
+      "options": [
+        "64",
+        "32",
+        "128",
+        "12"
+      ],
+      "answer": "64"
+    },
+    {
+      "question": "Hvor mange HELE bits trenger man for å sende en bokstav fra det norske alfabetet (29 bokstaver)? [cite: 1356]",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "29"
+      ],
+      "answer": "5"
+    },
+    {
+      "question": "Hvor mange HELE bits trenger man for et kinesisk tegn, dersom vi vet meldingen er begrenset til 3000 vanligste tegn? [cite: 1367]",
+      "options": [
+        "11",
+        "12",
+        "15",
+        "16"
+      ],
+      "answer": "12"
+    },
+    {
+      "question": "En kilde har 8 meldinger, en annen har 16. Du sender en fra hver. Hva blir totalt informasjonsinnhold (uavhengige)? [cite: 955, 956]",
+      "options": [
+        "128 bits",
+        "7 bits",
+        "24 bits",
+        "12 bits"
+      ],
+      "answer": "7 bits"
+    }
+  ],
+  "16 - Mengdelære: Kryss-oppgaver": [
+    {
+      "question": "Gitt A = {7, 1, 3, 4, 2, 9, 0}. Hva er kardinaliteten til potensmengden |P(A)|? [cite: 17, 44]",
+      "options": [
+        "128 (fordi 2^7 = 128)",
+        "14",
+        "49",
+        "7"
+      ],
+      "answer": "128 (fordi 2^7 = 128)"
+    },
+    {
+      "question": "Er den tomme mengden en delmengde av enhver mengde A (Ø ⊆ A)? [cite: 42, 70]",
+      "options": [
+        "Ja, dette er alltid sant.",
+        "Nei, bare hvis A også er tom.",
+        "Bare hvis A inneholder tallet 0.",
+        "Nei, det er et element, ikke en delmengde."
+      ],
+      "answer": "Ja, dette er alltid sant."
+    },
+    {
+      "question": "Gitt A={1,2,3} og B={2,3,4}. Hva er mengdedifferansen A \\ B? [cite: 1063, 1420]",
+      "options": [
+        "{1}",
+        "{4}",
+        "{2, 3}",
+        "Ø"
+      ],
+      "answer": "{1}"
+    },
+    {
+      "question": "Hvilken påstand om tellbarhet er riktig for mengden av naturlige tall (N)? [cite: 1067, 711]",
+      "options": [
+        "N er tellbar og uendelig.",
+        "N er overtellbar.",
+        "N er endelig.",
+        "N minus alle partall er endelig."
+      ],
+      "answer": "N er tellbar og uendelig."
+    },
+    {
+      "question": "Dersom A ⊆ B og B ⊆ A, hva kan vi si om mengdene? [cite: 54, 68]",
+      "options": [
+        "A = B",
+        "A er en ekte delmengde av B",
+        "A og B er disjunkte",
+        "Ingenting"
+      ],
+      "answer": "A = B"
+    }
+  ],
+  "17 - Utsagnslogikk: Sannhetsverdier og Typer": [
+    {
+      "question": "Hvor mange rader har en sannhetsverditabell med 3 variabler (A, B, C)? [cite: 104]",
+      "options": [
+        "8",
+        "6",
+        "3",
+        "9"
+      ],
+      "answer": "8"
+    },
+    {
+      "question": "En formel som er SANN i alle mulige tolkninger kalles: [cite: 437, 819]",
+      "options": [
+        "Gyldig (Tautologi)",
+        "Oppfyllbar",
+        "Falsifiserbar",
+        "Kontradiktorisk"
+      ],
+      "answer": "Gyldig (Tautologi)"
+    },
+    {
+      "question": "Kan en formel være både falsifiserbar og oppfyllbar samtidig? [cite: 434]",
+      "options": [
+        "Ja, hvis den er sann i noen tilfeller og usann i andre.",
+        "Nei, det er umulig.",
+        "Bare hvis den inneholder en implikasjon.",
+        "Bare hvis den er en tautologi."
+      ],
+      "answer": "Ja, hvis den er sann i noen tilfeller og usann i andre."
+    },
+    {
+      "question": "Hva er sannhetsverdien til (P -> Q) dersom P er Usann (0) og Q er Sann (1)? [cite: 102, 1244]",
+      "options": [
+        "1 (Sann)",
+        "0 (Usann)",
+        "Udefinert",
+        "Det avhenger av negasjonen"
+      ],
+      "answer": "1 (Sann)"
+    },
+    {
+      "question": "Hva kalles en formel som er USANN i alle mulige tolkninger? [cite: 129, 1555]",
+      "options": [
+        "Kontradiktorisk",
+        "Gyldig",
+        "Oppfyllbar",
+        "Atomær"
+      ],
+      "answer": "Kontradiktorisk"
+    }
+  ],
+  "18 - Relasjoner: Egenskaper (Cheat Sheet)": [
+    {
+      "question": "En relasjon R på mengden B={1,3,4,7,9} inneholder (1,1) og (9,9), men ikke (3,3). Er den refleksiv? [cite: 21, 29]",
+      "options": [
+        "Nei, alle elementer må ha relasjon til seg selv.",
+        "Ja, så lenge noen har det.",
+        "Ja, hvis den også er symmetrisk.",
+        "Nei, den er irrefleksiv."
+      ],
+      "answer": "Nei, alle elementer må ha relasjon til seg selv."
+    },
+    {
+      "question": "Hvis en relasjon er Refleksiv, Symmetrisk og Transitiv, kalles den: [cite: 47, 1118]",
+      "options": [
+        "Ekvivalensrelasjon",
+        "Partiell ordning",
+        "Funksjon",
+        "Injektiv"
+      ],
+      "answer": "Ekvivalensrelasjon"
+    },
+    {
+      "question": "Hva betyr det at en relasjon er Symmetrisk? [cite: 52, 1114]",
+      "options": [
+        "Hvis xRy, så må yRx finnes.",
+        "At xRx alltid gjelder.",
+        "Hvis xRy og yRz, så xRz.",
+        "At ingen elementer har relasjon til seg selv."
+      ],
+      "answer": "Hvis xRy, så må yRx finnes."
+    }
+  ],
+  "19 - Logikk: Språklige feller (Oversettelse)": [
+    {
+      "question": "Hvordan oversetter du 'P bare dersom Q' (P bare hvis Q)?",
+      "options": [
+        "P -> Q",
+        "Q -> P",
+        "P & Q",
+        "-P -> Q"
+      ],
+      "answer": "P -> Q"
+    },
+    {
+      "question": "Hvordan oversetter du 'P med mindre Q'?",
+      "options": [
+        "-Q -> P (eller P v Q)",
+        "P -> Q",
+        "Q -> P",
+        "-(P & Q)"
+      ],
+      "answer": "-Q -> P (eller P v Q)"
+    },
+    {
+      "question": "Hva betyr 'P er nødvendig for Q'?",
+      "options": [
+        "Q -> P",
+        "P -> Q",
+        "P <-> Q",
+        "P & Q"
+      ],
+      "answer": "Q -> P"
+    },
+    {
+      "question": "Hva betyr 'P er tilstrekkelig for Q'?",
+      "options": [
+        "P -> Q",
+        "Q -> P",
+        "P v Q",
+        "P & Q"
+      ],
+      "answer": "P -> Q"
+    },
+    {
+      "question": "Hvordan oversetter du 'Ingen er både slemme og attraktive' til førsteordens logikk?",
+      "options": [
+        "-Ex(Slem(x) & Attraktiv(x))",
+        "Ax(Slem(x) & Attraktiv(x))",
+        "Ex(Slem(x) v Attraktiv(x))",
+        "Ax(Slem(x) -> -Attraktiv(x))"
+      ],
+      "answer": "-Ex(Slem(x) & Attraktiv(x))"
+    }
+  ],
+  "20 - Grafer og Turingmaskiner (Mønstergjenkjenning)": [
+    {
+      "question": "Hva sier 'Håndhilselemmaet' om noder i en graf?",
+      "options": [
+        "Alle endelige grafer har et partall antall noder med odde grad.",
+        "Summen av alle noder må være et oddetall.",
+        "Antall kanter er alltid lik antall noder minus en.",
+        "En graf kan ikke ha mer enn 100 noder."
+      ],
+      "answer": "Alle endelige grafer har et partall antall noder med odde grad."
+    },
+    {
+      "question": "Hva kjennetegner en Eulersk graf?",
+      "options": [
+        "Den har en krets som går gjennom hver KANT nøyaktig én gang.",
+        "Den har en sykel som går gjennom hver NODE nøyaktig én gang.",
+        "Den er alltid sammenhengende og har kun 3 noder.",
+        "Den inneholder ingen sirkler."
+      ],
+      "answer": "Den har en krets som går gjennom hver KANT nøyaktig én gang."
+    },
+    {
+      "question": "Hva kjennetegner en Hamiltonsk graf?",
+      "options": [
+        "Den har en sykel som går innom hver NODE nøyaktig én gang.",
+        "Den har en krets som går gjennom hver KANT nøyaktig én gang.",
+        "Den må ha et partall antall kanter.",
+        "Den kan ikke tegnes uten at kantene krysser hverandre."
+      ],
+      "answer": "Den har en sykel som går innom hver NODE nøyaktig én gang."
+    },
+    {
+      "question": "Hva skjer i en Turingmaskin når den møter instruksjonen '0 ; 1, R'?",
+      "options": [
+        "Leser 0, skriver 1, flytter hodet til høyre.",
+        "Leser 1, skriver 0, flytter hodet til høyre.",
+        "Stopper maskinen hvis den ser 0.",
+        "Flytter hodet til høyre uten å endre noe."
+      ],
+      "answer": "Leser 0, skriver 1, flytter hodet til høyre."
+    }
+  ],
+  "21 - Rekursjon: Matematiske snarveier": [
+    {
+      "question": "Gitt f(0)=1 og f(n+1)=2*f(n)-1. Hva er f(1746)?",
+      "options": [
+        "1",
+        "1746",
+        "0",
+        "2"
+      ],
+      "answer": "1"
+    },
+    {
+      "question": "I strukturell induksjon, hva er det første steget (basistilfellet)?",
+      "options": [
+        "Å vise at påstanden stemmer for de enkleste elementene (f.eks. utsagnsvariabler).",
+        "Å anta at påstanden stemmer for n og vise for n+1.",
+        "Å motbevise påstanden med et moteksempel.",
+        "Å tegne en sannhetsverditabell."
+      ],
+      "answer": "Å vise at påstanden stemmer for de enkleste elementene (f.eks. utsagnsvariabler)."
+    }
   ]
 }
-
