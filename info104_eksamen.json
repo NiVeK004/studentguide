@@ -1,0 +1,404 @@
+{
+  "22 - INFO104 2020: Utsagnslogikk og Konsekvens": [
+    {
+      "question": "Dersom sannhetsverdien til A er 0 (usann) og sannhetsverdien til B er 1 (sann), hva er sannhetsverdien til ¬(A → (B → ¬A))? [cite: 188]",
+      "options": [
+        "0 [cite: 190]",
+        "1 [cite: 191]",
+        "Udefinert",
+        "Kan ikke bestemmes"
+      ],
+      "answer": "0 [cite: 190]"
+    },
+    {
+      "question": "Dersom sannhetsverdien til A er 1 (sann), sannhetsverdien til B er 0 (usann) og sannhetsverdien til C er 1 (sann), hva er sannhetsverdien til ¬(¬A ∧ ¬(B → ¬C))? [cite: 198]",
+      "options": [
+        "1 [cite: 201]",
+        "0 [cite: 200]",
+        "Betinget",
+        "Ingen av delene"
+      ],
+      "answer": "1 [cite: 201]"
+    },
+    {
+      "question": "Gitt formlene F = ¬P og G = (P → Q). Er G en logisk konsekvens av F? [cite: 242, 243, 244]",
+      "options": [
+        "Ja [cite: 246]",
+        "Nei [cite: 247]",
+        "Bare hvis Q er sann",
+        "Bare hvis P er sann"
+      ],
+      "answer": "Ja [cite: 246]"
+    },
+    {
+      "question": "Gitt formlene F = (K → P), G = (¬P ∧ Q) og H = ¬(¬K → ¬Q). Er H en logisk konsekvens av F og G? [cite: 256, 257, 258, 259]",
+      "options": [
+        "Ja [cite: 261]",
+        "Nei [cite: 262]",
+        "Kan ikke avgjøres",
+        "Bare hvis K er usann"
+      ],
+      "answer": "Ja [cite: 261]"
+    }
+  ],
+  "23 - INFO104 2020 & 2021: Kombinatorikk og Sannsynlighet": [
+    {
+      "question": "Eliteserien i sykkelball består av 5 lag, og det finnes til enhver tid 14 lag totalt. Hvor mange mulige ulike kombinasjoner av lag i eliteserien finnes? [cite: 291, 292]",
+      "options": [
+        "2002 [cite: 293]",
+        "120",
+        "60",
+        "240240"
+      ],
+      "answer": "2002 [cite: 293]"
+    },
+    {
+      "question": "Du husker kanskje at et palindrom er en streng som er identisk dersom den leses forlengs og baklengs. Hvor mange palindromer av lengde 6 er det over et alfabet med 3 tegn? [cite: 1043, 1044]",
+      "options": [
+        "27 [cite: 1395]",
+        "729",
+        "9",
+        "18"
+      ],
+      "answer": "27 [cite: 1395]"
+    },
+    {
+      "question": "Du og en venn skriver uavhengig ned de tre beste utestedene fra en liste på 5. Rekkefølgen spiller ingen rolle. Hva er sannsynligheten for at dere har skrevet de samme tre navnene (i prosent)? [cite: 578, 579]",
+      "options": [
+        "10 [cite: 581]",
+        "20",
+        "5",
+        "33"
+      ],
+      "answer": "10 [cite: 581]"
+    },
+    {
+      "question": "Anta at sannsynligheten for at sensor er senil er 2%, at 90% av senile sensorer gir gal karakter og at 5% av ikke-senile sensorer gir gal karakter. Hva er sannsynligheten for sensor er senil gitt at du får gal karakter (i prosent)? [cite: 596, 597]",
+      "options": [
+        "26.8-26.9% [cite: 600]",
+        "2%",
+        "90%",
+        "5%"
+      ],
+      "answer": "26.8-26.9% [cite: 600]"
+    }
+  ],
+  "24 - INFO104 2020 & 2021: Informasjonsteori": [
+    {
+      "question": "Universitetet sender en melding med karakter A-F (alle like sannsynlige). Hvor mye informasjon inneholder meldingen? [cite: 342, 343]",
+      "options": [
+        "Ca. 2.585 bits [cite: 351]",
+        "2 bits [cite: 350]",
+        "6 bits [cite: 352]",
+        "Ca. 0.167 bits [cite: 345]"
+      ],
+      "answer": "Ca. 2.585 bits [cite: 351]"
+    },
+    {
+      "question": "Hvor mange (hele) bits trenger man til å sende ett Japansk hiragana-tegn hvis det er 46 mulige tegn og alle er like sannsynlige? [cite: 741, 747]",
+      "options": [
+        "6 [cite: 749]",
+        "5",
+        "16",
+        "12"
+      ],
+      "answer": "6 [cite: 749]"
+    },
+    {
+      "question": "Hvor mange (hele) bits trenger man for å sende en bokstav fra det engelske alfabetet (26 bokstaver)? [cite: 741, 745]",
+      "options": [
+        "5 [cite: 746]",
+        "4",
+        "6",
+        "26"
+      ],
+      "answer": "5 [cite: 746]"
+    }
+  ],
+  "25 - INFO104 2022 & 2024: Utsagnslogikk: Sannhetsverdier og Egenskaper": [
+    {
+      "question": "Dersom sannhetsverdiene til A, B og C alle er 0 (usann), hva er da sannhetsverdien til (A ∨ ¬(B → C))? [cite: 943]",
+      "options": [
+        "0",
+        "1",
+        "Avhenger av B",
+        "Udefinert"
+      ],
+      "answer": "0"
+    },
+    {
+      "question": "Dersom sannhetsverdiene til A og B begge er 1 (sann), hva er da sannhetsverdien til (¬(¬A ∨ B) → A)? [cite: 950]",
+      "options": [
+        "1",
+        "0",
+        "Ugyldig formel",
+        "Avhenger av parentesene"
+      ],
+      "answer": "1"
+    },
+    {
+      "question": "Dersom sannhetsverdien til A er 0 (usann), og sannhetsverdiene til B og C begge er 1 (sann), hva er da sannhetsverdien til ¬((A → ¬B) ∨ C)? [cite: 1618]",
+      "options": [
+        "0",
+        "1",
+        "Betinget",
+        "Ingen av delene"
+      ],
+      "answer": "0"
+    },
+    {
+      "question": "Hvilken av følgende påstander om utsagnslogiske formler er RIKTIG? [cite: 1646, 1648, 1650]",
+      "options": [
+        "En kontradiktorisk formel er alltid falsifiserbar.",
+        "En formel må enten være oppfyllbar eller falsifiserbar.",
+        "En formel kan være både kontradiktorisk og en tautologi.",
+        "En tautologi er alltid usann."
+      ],
+      "answer": "En kontradiktorisk formel er alltid falsifiserbar."
+    }
+  ],
+  "26 - INFO104 2022 & 2024: Kombinatorikk": [
+    {
+      "question": "Hvor mange palindromer av lengde 6 er det over et alfabet med 3 tegn? [cite: 1043, 1044, 1395]",
+      "options": [
+        "27",
+        "729",
+        "9",
+        "18"
+      ],
+      "answer": "27"
+    },
+    {
+      "question": "Hvor mange grupper med minst fire personer (fire personer eller flere) finnes i en samling på syv mennesker? [cite: 1050, 1403]",
+      "options": [
+        "64",
+        "35",
+        "128",
+        "21"
+      ],
+      "answer": "64"
+    },
+    {
+      "question": "Du skal lage et passord bestående av tre tegn fra et alfabet på seks tegn. Alle tegnene i passordet må være ulike. Hvor mange mulige passord finnes? [cite: 1056, 1057, 1411]",
+      "options": [
+        "120",
+        "216",
+        "18",
+        "720"
+      ],
+      "answer": "120"
+    }
+  ],
+  "27 - INFO104 2022 & 2024: Logisk konsekvens og ekvivalens": [
+    {
+      "question": "Gitt formlene F = (A → ¬(B ∧ ¬C)), G = ¬C, H = ¬B. Er H en logisk konsekvens av {F, G, A}? [cite: 1656, 1657, 1658, 1659, 1662]",
+      "options": [
+        "Ja",
+        "Nei",
+        "Bare hvis A er usann",
+        "Bare hvis B er sann"
+      ],
+      "answer": "Ja"
+    },
+    {
+      "question": "Gitt formlene F = (A → ¬(B ∧ ¬C)), G = ¬B, H = ¬C, I = ¬A. Er I en logisk konsekvens av {F, G, H}? [cite: 992, 993, 994, 995, 996, 999]",
+      "options": [
+        "Nei",
+        "Ja",
+        "Bare hvis A er usann",
+        "Kan ikke bevises"
+      ],
+      "answer": "Nei"
+    },
+    {
+      "question": "Er formlene ((A → B) → C) og (A → (B → C)) logisk ekvivalente? [cite: 1684, 1686]",
+      "options": [
+        "Nei",
+        "Ja",
+        "Ja, på grunn av assosiativitet",
+        "Ja, på grunn av De Morgan"
+      ],
+      "answer": "Nei"
+    }
+  ],
+  "28 - INFO104 2022: Sannsynlighet og Informasjonsteori": [
+    {
+      "question": "Hvilken av disse betingelsene må være oppfylt for at to hendelser A og B skal være uavhengige? [cite: 1064, 1066]",
+      "options": [
+        "P(A ∩ B) = P(A) * P(B)",
+        "P(A | B) = P(B)",
+        "A ∩ B = Ø",
+        "P(A) = P(B)"
+      ],
+      "answer": "P(A ∩ B) = P(A) * P(B)"
+    },
+    {
+      "question": "Informasjonskvantiteten (entropien) er maksimal når: [cite: 1103, 1106]",
+      "options": [
+        "Sannsynligheten for alle alternativene (meldingene) er den samme",
+        "Sannsynligheten for ett av alternativene er lik 1 og resten er 0",
+        "Det er bare to mulige meldinger",
+        "Meldingene er uavhengige av hverandre"
+      ],
+      "answer": "Sannsynligheten for alle alternativene (meldingene) er den samme"
+    },
+    {
+      "question": "Sannsynligheten for regn er 90%. Sannsynlighet for forsinket buss er 20%. Sannsynlighet for forsinket buss gitt at det regner er 10%. Hva er sannsynligheten for at det regner gitt at bussen er forsinket? (i prosent) [cite: 1077, 1078, 1079, 1435]",
+      "options": [
+        "45%",
+        "18%",
+        "90%",
+        "10%"
+      ],
+      "answer": "45%"
+    }
+  ],
+  "29 - INFO104 2024 & 2025: Rekursjon og Grafer": [
+    {
+      "question": "Gitt følgende rekursive funksjon over de naturlige tallene: f(0) = 1 og f(n+1) = 2 * f(n) - 1. Hva er f(1746)?",
+      "options": [
+        "1",
+        "1746",
+        "3491",
+        "0"
+      ],
+      "answer": "1"
+    },
+    {
+      "question": "Hva er riktig angående Eulerske og Hamiltonske grafer?",
+      "options": [
+        "Det finnes grafer som er både Eulerske og Hamiltonske.",
+        "En graf kan aldri være både Eulersk og Hamiltonsk.",
+        "Alle Eulerske grafer må også være Hamiltonske.",
+        "Alle Hamiltonske grafer må også være Eulerske."
+      ],
+      "answer": "Det finnes grafer som er både Eulerske og Hamiltonske."
+    },
+    {
+      "question": "Hva betyr det at en graf er Eulersk?",
+      "options": [
+        "Den har en krets som går gjennom hver KANT nøyaktig én gang.",
+        "Den har en sykel som går gjennom hver NODE nøyaktig én gang.",
+        "Den kan tegnes uten at kantene krysser hverandre.",
+        "Alle nodene i grafen har partallsgrad."
+      ],
+      "answer": "Den har en krets som går gjennom hver KANT nøyaktig én gang."
+    }
+  ],
+  "30 - INFO104 2024 & 2025: Avansert Sannsynlighet": [
+    {
+      "question": "30% av alle utestedene i Bergen er kule. 90% av de kule utestedene er billige. 20% av de ukule utestedene er billige. Hva er sannsynligheten for at et tilfeldig valgt utested er kult, DERSOM det er billig? (Bayes' teorem)",
+      "options": [
+        "65-67%",
+        "27%",
+        "90%",
+        "41%"
+      ],
+      "answer": "65-67%"
+    },
+    {
+      "question": "Sannsynligheten for at du BÅDE står på eksamen og får jobb er 60%. Sannsynligheten for at du får jobb DERSOM du står er 80%. Hva er sannsynligheten for at du står på eksamen?",
+      "options": [
+        "75%",
+        "48%",
+        "140%",
+        "20%"
+      ],
+      "answer": "75%"
+    },
+    {
+      "question": "Anta at du kun vet følgende: Sannsynligheten for at du BÅDE står på eksamen og det blir sol er 10%. Sannsynligheten for sol MEN stryk (ikke står) er 40%. Hva er sannsynligheten for at du står GITT at det blir sol?",
+      "options": [
+        "20%",
+        "10%",
+        "50%",
+        "25%"
+      ],
+      "answer": "20%"
+    },
+    {
+      "question": "Vi velger en tilfeldig gruppe på tre studenter fra mengden {Per, Kari, Anne, Ola, Petter, Nils, Lise, Eva} (8 personer). Hva er sannsynligheten for at Kari er med i gruppen vi har valgt?",
+      "options": [
+        "38%",
+        "12.5%",
+        "33%",
+        "50%"
+      ],
+      "answer": "38%"
+    }
+  ],
+  "31 - INFO104 2024 & 2025: Kombinatorikk og Mengder (Nivå 2)": [
+    {
+      "question": "Hvor mange undermengder med 7 eller færre elementer har en mengde med 10 elementer?",
+      "options": [
+        "968",
+        "1024",
+        "120",
+        "848"
+      ],
+      "answer": "968"
+    },
+    {
+      "question": "Hvor mange relasjoner på en mengde med fire elementer finnes det totalt?",
+      "options": [
+        "65536",
+        "256",
+        "16",
+        "4096"
+      ],
+      "answer": "65536"
+    },
+    {
+      "question": "En meny har 10 småretter. Hvor mange ulike kombinasjoner bestående av minst 3, og maks 6, småretter finnes?",
+      "options": [
+        "792",
+        "120",
+        "210",
+        "848"
+      ],
+      "answer": "792"
+    }
+  ],
+  "32 - INFO104 2024 & 2025: Informasjonsteori og Førsteordens Logikk": [
+    {
+      "question": "Du skal bestille to ULIKE retter fra en meny bestående av 8 retter. Hva er informasjonsinnholdet i bestillingen din i antall hele bits? (Rund av oppover).",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "answer": "6"
+    },
+    {
+      "question": "Anta at en meldingskilde har 40 meldinger. Halvparten av dem blir sendt 4 ganger oftere enn de andre. Hva er informasjonsinnholdet i en melding (i bits)?",
+      "options": [
+        "5.03 - 5.05 bits",
+        "5.32 bits",
+        "6.00 bits",
+        "4.80 bits"
+      ],
+      "answer": "5.03 - 5.05 bits"
+    },
+    {
+      "question": "Hvordan oversetter du 'Det finnes en rik tannlege' til førsteordens logikk?",
+      "options": [
+        "∃x(Tannlege(x) ∧ Rik(x))",
+        "∀x(Tannlege(x) → Rik(x))",
+        "∃x(Tannlege(x) → Rik(x))",
+        "∀x(Tannlege(x) ∧ Rik(x))"
+      ],
+      "answer": "∃x(Tannlege(x) ∧ Rik(x))"
+    },
+    {
+      "question": "Gitt formlene ∀x∀y Elsker(x,y). Hva betyr dette i naturlig språk?",
+      "options": [
+        "Alle elsker alle",
+        "Noen elsker alle",
+        "Alle elsker noen",
+        "Alle elsker seg selv"
+      ],
+      "answer": "Alle elsker alle"
+    }
+  ]
+}
