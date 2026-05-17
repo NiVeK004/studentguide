@@ -1,0 +1,266 @@
+{
+  "INFO135 - OOP & Exceptions": [
+    {
+      "question": "What does UML stand for in the context of Object-Oriented Programming?",
+      "options": [
+        "Unified Modeling Language",
+        "Universal Machine Logic",
+        "User Module Layers",
+        "Underlying Memory Layout"
+      ],
+      "answer": "Unified Modeling Language"
+    },
+    {
+      "question": "Which of the following is NOT a standard component of a UML class diagram?",
+      "options": [
+        "Memory Addresses",
+        "Class Name",
+        "Attributes",
+        "Operations"
+      ],
+      "answer": "Memory Addresses"
+    },
+    {
+      "question": "What happens when a Python program encounters an unexpected error and cannot handle it?",
+      "options": [
+        "It raises an Exception and terminates",
+        "It skips the line and continues running",
+        "It automatically restarts the program",
+        "It compiles the code into machine language"
+      ],
+      "answer": "It raises an Exception and terminates"
+    },
+    {
+      "question": "Which keyword is used in Python to manually throw an exception if a specific condition occurs?",
+      "options": [
+        "raise",
+        "throw",
+        "catch",
+        "except"
+      ],
+      "answer": "raise"
+    },
+    {
+      "question": "What is the specific purpose of a 'try-except' block in Python?",
+      "options": [
+        "To execute a block of code and catch/handle exceptions if they occur, preventing a crash",
+        "To test if a variable is True or False",
+        "To loop through a list until an error is found",
+        "To import external libraries safely"
+      ],
+      "answer": "To execute a block of code and catch/handle exceptions if they occur, preventing a crash"
+    },
+    {
+      "question": "Which built-in Exception is raised when a number is attempted to be divided by zero?",
+      "options": [
+        "ZeroDivisionError",
+        "ArithmeticError",
+        "FloatingPointError",
+        "ValueError"
+      ],
+      "answer": "ZeroDivisionError"
+    }
+  ],
+  "INFO135 - Trees & Heaps": [
+    {
+      "question": "What is the defining rule of a Max-heap structure?",
+      "options": [
+        "For each non-leaf node, the node's value is greater than the value of its children",
+        "For each non-leaf node, the node's value is smaller than the value of its children",
+        "The root node must always be exactly double the value of its leaves",
+        "Every node can only have one child"
+      ],
+      "answer": "For each non-leaf node, the node's value is greater than the value of its children"
+    },
+    {
+      "question": "In a Min-heap, where is the absolute smallest element located?",
+      "options": [
+        "At the root",
+        "At the deepest leaf node",
+        "In the rightmost child node",
+        "In the exact middle of the tree"
+      ],
+      "answer": "At the root"
+    },
+    {
+      "question": "Is a Heap considered a linear or non-linear data structure?",
+      "options": [
+        "Non-linear data structure",
+        "Linear data structure",
+        "Both, depending on the programming language",
+        "Neither, it is an Abstract Data Type only"
+      ],
+      "answer": "Non-linear data structure"
+    },
+    {
+      "question": "What is the main structural difference between a linear and a non-linear data structure?",
+      "options": [
+        "Linear elements are attached sequentially; non-linear elements are attached hierarchically",
+        "Linear elements can only hold text; non-linear elements hold numbers",
+        "Linear data structures require less memory than non-linear ones",
+        "Linear structures can only be sorted using Bubble Sort"
+      ],
+      "answer": "Linear elements are attached sequentially; non-linear elements are attached hierarchically"
+    }
+  ],
+  "INFO135 - Advanced Algorithms": [
+    {
+      "question": "How does Dijkstra's algorithm differ from a basic Breadth-First Search (BFS)?",
+      "options": [
+        "Dijkstra takes edge weights (costs/time) into account, whereas BFS only counts the number of nodes/edges",
+        "BFS is used for shortest paths, while Dijkstra is used for sorting arrays",
+        "Dijkstra only works on linear data structures",
+        "BFS always finds the fastest route in terms of time, regardless of the number of nodes"
+      ],
+      "answer": "Dijkstra takes edge weights (costs/time) into account, whereas BFS only counts the number of nodes/edges"
+    },
+    {
+      "question": "What is the core philosophy of a Greedy Algorithm?",
+      "options": [
+        "Making the best local choice at the moment with the hope of finding a global optimum",
+        "Storing all previous solutions in memory to avoid repeating calculations",
+        "Dividing the problem into exactly two halves and solving them recursively",
+        "Randomly guessing paths until the correct one is found"
+      ],
+      "answer": "Making the best local choice at the moment with the hope of finding a global optimum"
+    },
+    {
+      "question": "When comparing Dynamic Programming to Greedy Algorithms, which statement is generally true?",
+      "options": [
+        "Dynamic programming finds the optimal solution but is slower, while Greedy does not always find the optimal solution but is fast",
+        "Greedy algorithms always find the optimal solution, while DP is just an estimation",
+        "Dynamic programming uses less memory than Greedy Algorithms",
+        "They are the exact same algorithm implemented in different languages"
+      ],
+      "answer": "Dynamic programming finds the optimal solution but is slower, while Greedy does not always find the optimal solution but is fast"
+    },
+    {
+      "question": "Why do we store sub-solutions in Dynamic Programming (Memoization)?",
+      "options": [
+        "To avoid repeating the same calculations for overlapping subproblems",
+        "Because Python requires all variables to be stored globally",
+        "To easily print the output to the console later",
+        "To increase the worst-case time complexity intentionally"
+      ],
+      "answer": "To avoid repeating the same calculations for overlapping subproblems"
+    },
+    {
+      "question": "If you solve the Knapsack problem using pure recursion without Dynamic Programming, how does the number of subproblems grow?",
+      "options": [
+        "Exponentially (e.g., 2^n)",
+        "Linearly (O(n))",
+        "Logarithmically (O(log n))",
+        "Constant time (O(1))"
+      ],
+      "answer": "Exponentially (e.g., 2^n)"
+    }
+  ],
+  "INFO135 - Hashing & Data Structures": [
+    {
+      "question": "In the context of Hashing, what formula is typically used to represent Linear Probing to find an empty slot?",
+      "options": [
+        "slot = (home + i) % m",
+        "slot = (home * i) / m",
+        "slot = home + (i % m)",
+        "slot = m % (home + i)"
+      ],
+      "answer": "slot = (home + i) % m"
+    },
+    {
+      "question": "If a hash table uses linear probing, what exactly happens when a 'collision' occurs?",
+      "options": [
+        "The algorithm loops sequentially to check the next available slots until an empty one is found",
+        "The program crashes and raises a KeyError exception",
+        "The new item completely overwrites the old item",
+        "The table size is immediately doubled"
+      ],
+      "answer": "The algorithm loops sequentially to check the next available slots until an empty one is found"
+    },
+    {
+      "question": "What does an Abstract Data Type (ADT) define?",
+      "options": [
+        "A well-defined description that specifies a set of operations performed on data, independent of implementation",
+        "The exact memory layout required for a list in Python",
+        "A physical piece of hardware used to store information",
+        "An algorithm for sorting strings"
+      ],
+      "answer": "A well-defined description that specifies a set of operations performed on data, independent of implementation"
+    },
+    {
+      "question": "In a basic Singly Linked List, what does it mean if a Node's 'next' pointer evaluates to None?",
+      "options": [
+        "It indicates the end (tail) of the linked list",
+        "It means the list is completely empty",
+        "It means the Node has been deleted",
+        "It indicates the head of the list"
+      ],
+      "answer": "It indicates the end (tail) of the linked list"
+    }
+  ],
+  "INFO135 - Additional Exam Examples": [
+    {
+      "question": "Exam Formula Check: If you are searching for a name in an UNSORTED phone directory with 'n' entries using Linear Search, what is the expected (average) number of entries checked?",
+      "options": [
+        "(n+1)/2",
+        "n^2",
+        "n / 2",
+        "log(n)"
+      ],
+      "answer": "(n+1)/2"
+    },
+    {
+      "question": "In the example exam question regarding the 'House' OOP class, what does the 'renovate(expense, new_condition)' method do?",
+      "options": [
+        "It increases the cost by the expense and updates the condition of the house",
+        "It sells the house and calculates the final profit",
+        "It deletes the house object from memory",
+        "It changes the owner's name and resets the price to zero"
+      ],
+      "answer": "It increases the cost by the expense and updates the condition of the house"
+    },
+    {
+      "question": "Exam Theory: What causes a process to be defined as 'I/O-Bound'?",
+      "options": [
+        "The program spends most of its time waiting for input/output operations (like network requests or reading files) to complete",
+        "The CPU is too slow to handle the mathematical calculations",
+        "The program has entered an infinite while loop",
+        "The user has not pressed a key on the keyboard fast enough"
+      ],
+      "answer": "The program spends most of its time waiting for input/output operations (like network requests or reading files) to complete"
+    }
+  ],
+  "INFO135 - Exam Examples": [
+    {
+      "question": "Suppose you're looking for a word in a Spanish dictionary with 262144 words. In the worst case, how many steps do you think the search will take with Binary Search? [cite: 3223]",
+      "options": [
+        "2^18 step",
+        "2 step",
+        "18 step",
+        "64 step",
+        "None of the above"
+      ],
+      "answer": "18 step"
+    },
+    {
+      "question": "Sara's mother gave her a phone number and asked her to check a printed phone directory and find the name of the person who owns the number. Suppose Sara uses Linear search. If there are n entries in the phone directory, how many entries is 'expected' to be checked by Sara (average case), before finding the name of the owner of that number? [cite: 3223]",
+      "options": [
+        "n^2",
+        "n",
+        "(n+1)/2",
+        "n((n+1)/2)",
+        "log n"
+      ],
+      "answer": "(n+1)/2"
+    },
+    {
+      "question": "What does I/O-Bound mean? [cite: 3223]",
+      "options": [
+        "A condition where a program slows down because it must wait for input/output (I/O) operations to be completed",
+        "A condition where the CPU runs at maximum capacity",
+        "A condition where a program uses too much memory",
+        "A condition where the network is disconnected"
+      ],
+      "answer": "A condition where a program slows down because it must wait for input/output (I/O) operations to be completed"
+    }
+  ]
+}
